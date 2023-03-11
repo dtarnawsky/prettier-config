@@ -2,11 +2,11 @@ module.exports = {
   printWidth: 120, // default: 80
   tabWidth: 2,
   useTabs: false,
-  semi: true,
+  semi: false, // default: false
   singleQuote: true, // default: false
   quoteProps: 'as-needed',
   jsxSingleQuote: false,
-  trailingComma: 'es5',
+  trailingComma: 'none', // default: es5
   bracketSpacing: true,
   bracketSameLine: false,
   arrowParens: 'always',
